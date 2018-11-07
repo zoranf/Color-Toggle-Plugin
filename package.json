@@ -1,0 +1,20 @@
+{
+  "name": "Experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "gulp-build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC"
+}
