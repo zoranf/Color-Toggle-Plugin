@@ -13,6 +13,7 @@
 <body>
     <div class="hello-container"></div>
     <div class="reset">Reset</div>
+    <script src="js/experiment.js"></script>
     <script>
         $(document).ready(function() {
             var hello = $(".hello-container");
@@ -20,7 +21,8 @@
 
             hello.experiment({
                 name: "Zoran Felbar",
-                currentColor: "pink"
+                currentColor: "pink",
+                secondaryColor: "orange"
             });
 
             hello.on("click", function() {
