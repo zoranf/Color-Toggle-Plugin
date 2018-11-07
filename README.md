@@ -1,1 +1,2 @@
-jQuery-basic-plugin
+npm install
+gulp build
