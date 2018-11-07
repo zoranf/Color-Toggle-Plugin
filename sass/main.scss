@@ -1,0 +1,14 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  .hello-container,
+  .reset { cursor: pointer; }
+  .reset {
+      margin-top: 20px;
+      background: blue;
+      padding: 10px;
+      width: 100px;
+      color: white;
+      text-align: center;
+  }
+}
