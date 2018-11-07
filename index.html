@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Das Experiment</title>
+    <link rel="stylesheet" href="css/main.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous">
@@ -12,5 +13,24 @@
 <body>
     <div class="hello-container"></div>
     <div class="reset">Reset</div>
+    <script>
+        $(document).ready(function() {
+            var hello = $(".hello-container");
+            var reset = $(".reset");
+
+            hello.experiment({
+                name: "Zoran Felbar",
+                currentColor: "pink"
+            });
+
+            hello.on("click", function() {
+                hello.colorToggle();
+            });
+
+            reset.on("click", function() {
+                hello.reset();
+            });
+        });
+    </script>
 </body>
 </html>
