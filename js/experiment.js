@@ -38,10 +38,6 @@
             this.setColor(defaults.currentColor);
         }
 
-        this.getSettings = function() {
-            return settings;
-        }
-
         this.init(this);
 
         return this;
