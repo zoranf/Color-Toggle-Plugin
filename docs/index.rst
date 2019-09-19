@@ -1,1 +1,4 @@
+DOCS
+======
+
 docs/index.rst
