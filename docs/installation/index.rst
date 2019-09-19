@@ -1,4 +1,4 @@
-Installation
+DOCS 1
 ======
 
-# Installation process
+Installation process
