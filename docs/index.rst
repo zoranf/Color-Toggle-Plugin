@@ -1,4 +1,4 @@
 INDEX
 =====
 
-Have to be there ..
+.. contents::
